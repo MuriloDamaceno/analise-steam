@@ -10,7 +10,7 @@ st.set_page_config(page_title="Avaliações de jogos na Steam", layout="wide")
 
 @st.cache_data
 def carregar_dados():
-    arquivo = Path(__file__).with_name("games_limpo.csv")
+    arquivo = Path(__file__).resolve().parents[1] / "etapa_2_tratamento" / "games_limpo.csv"
     return pd.read_csv(arquivo)
 
 

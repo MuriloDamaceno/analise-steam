@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Lê o CSV que você acabou de gerar.
-arquivo = Path(__file__).with_name("games_limpo.csv")
+arquivo = Path(__file__).resolve().parents[1] / "etapa_2_tratamento" / "games_limpo.csv"
 dados = pd.read_csv(arquivo)
 
 # Conta quantos títulos receberam cada classificação da Steam.
