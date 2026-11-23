@@ -30,7 +30,7 @@ st.write(
     "e conteúdos adicionais. Os preços e as avaliações correspondem ao "
     "momento em que os dados foram coletados."
 )
-st.caption("Desenvolvido por William Hennemann dos Santos e Murilo Damaceno Diefenbach.")
+st.caption("Desenvolvido por William dos Santos Hennemann e Murilo Damaceno Diefenbach.")
 st.markdown(
     "[Fonte dos dados — Game Recommendations on Steam, no Kaggle]"
     "(https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam)"
